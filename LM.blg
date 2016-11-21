@@ -1,0 +1,107 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: /Users/wjsjwr/lab/UI/LM.aux
+The style file: apsrev.bst
+I found no \bibdata command---while reading file /Users/wjsjwr/lab/UI/LM.aux
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--I didn't find a database entry for "NATURE359826"
+Warning--I didn't find a database entry for "PRL95098104"
+Warning--I didn't find a database entry for "PRE72056128"
+Warning--I didn't find a database entry for "PRE66021907"
+Warning--I didn't find a database entry for "EPL7730004"
+Warning--I didn't find a database entry for "NATURE441502"
+Warning--I didn't find a database entry for "SCIENCE3141560"
+Warning--I didn't find a database entry for "NATURE433312"
+Warning--I didn't find a database entry for "PRL98108103"
+Warning--I didn't find a database entry for "SR46224"
+Warning--I didn't find a database entry for "PRE88032127"
+Warning--I didn't find a database entry for "JPA47225003"
+Warning--I didn't find a database entry for "PNAS10912922"
+Warning--I didn't find a database entry for "BAMS40479"
+Warning--I didn't find a database entry for "NJP16013010"
+Warning--I didn't find a database entry for "JRSI1220141299"
+Warning--I didn't find a database entry for "PRX3041021"
+Warning--I didn't find a database entry for "PRE81057101"
+Warning--I didn't find a database entry for "CSF70230"
+Warning--I didn't find a database entry for "ETG"
+Warning--I didn't find a database entry for "PNAS10910409"
+Warning--I didn't find a database entry for "PNAS10910134"
+Warning--I didn't find a database entry for "NC42193"
+Warning--I didn't find a database entry for "PRE91052803"
+Warning--I didn't find a database entry for "RMP7447"
+Warning--I didn't find a database entry for "AP511079"
+Warning--I didn't find a database entry for "SIAMR45167"
+Warning--I didn't find a database entry for "PR424175"
+Warning--I didn't find a database entry for "PRE85011914"
+Warning--I didn't find a database entry for "ARS241"
+Warning--I didn't find a database entry for "OSMNS"
+Warning--I didn't find a database entry for "PCPS5460"
+Warning--I didn't find a database entry for "NATURE454213"
+Warning--I didn't find a database entry for "EPL8638001"
+Warning--I didn't find a database entry for "Arxiv11114503"
+Warning--I didn't find a database entry for "WWW591"
+Warning--I didn't find a database entry for "LMMAA337"
+Warning--I didn't find a database entry for "ACMTKDD"
+Warning--I didn't find a database entry for "NATURE393440"
+Warning--I didn't find a database entry for "EPJB13547"
+Warning--I didn't find a database entry for "AS6441"
+Warning--I didn't find a database entry for "JEL39572"
+Warning--I didn't find a database entry for "EL8748"
+Warning--I didn't find a database entry for "NATURE428643"
+Warning--I didn't find a database entry for "SCIENCE286509"
+Warning--I didn't find a database entry for "TPB3893"
+Warning--I didn't find a database entry for "AAM20247"
+Warning--I didn't find a database entry for "PCB6e1000948"
+Warning--I didn't find a database entry for "NIPS"
+Warning--I didn't find a database entry for "PO5e13749"
+Warning--I didn't find a database entry for "PNAS10819193"
+Warning--I didn't find a database entry for "PR51997"
+Warning--I didn't find a database entry for "SCIENCE2111390"
+Warning--I didn't find a database entry for "JCR24379"
+Warning--I didn't find a database entry for "GCEC"
+Warning--I didn't find a database entry for "NATURE398441"
+Warning--I didn't find a database entry for "NATURE36456"
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 0 entries,
+            3411 wiz_defined-function locations,
+            1265 strings with 11122 characters,
+and the built_in function-call counts, 46 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 9
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 15
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1
+stack$ -- 0
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 0
+width$ -- 0
+write$ -- 14
+(There was 1 error message)
