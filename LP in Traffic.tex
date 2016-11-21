@@ -1,5 +1,5 @@
 \documentclass[onecolumn,preprintnumbers,amsmath,amssymb]{revtex4}
-\newcommand{\gguide}{{\it Unfavorable Individuals in Social Gaming Networks}}
+\newcommand{\gguide}{{\it Negative Correlation in Traffic Recovery}}
 %Uncomment next line if AMS fonts required
 \usepackage[dvips]{graphicx}% Include figure files
 \usepackage{dcolumn}% Align table columns on decimal point
@@ -41,6 +41,87 @@ With the rapid development of information and communication technology, we can a
 }
 
 \maketitle
+
+\section*{INTRODUCTION\protect}
+
+\section*{RELATED WORK\protect}
+The simplest framework of link prediction methods is the similarity-based algorithm, where each pair of nodes x and y, is assigned a score $s_x$$_y$, which is directly defined as the similarity between x and y. Similarity-based algorithm are classified into three categories: local indices; global indices; quasi-local indices, which do not require global topological information but make use of more information than local indices\cite{SV}. Considered of computation complexity here in our experiment we use two classic algorithm: PA in local indices and LP in quasi-local indices and other transformed algorithms.
+
+(1) Preferential Attachment Index (PA)\cite{WG}. The mechanism of preferential attachment can be used to generate evolving scale-free networks, where the probability that a new link is connected to the node x is proportional to k$_x$. A similar mechanism can also lead to scale-free networks without growth , where at each time step, an old link is removed and a new link is generated. The probability that this new link will connect x and y is proportional to k$_x$ × k$_y$. Motivated by this mechanism, the corresponding similarity index can be defined as
+\begin{equation}
+\centerline{
+$S_x$$_y$=
+k$_x$ * k$_y$
+}
+\end{equation}
+
+
+(2) Local Path Index (LP)\cite{AC,LI}. Denote by A the adjacency matrix, where A$_x$$_y$ = 1 if x and y are directly connected, and A$_x$$_y$ = 0 otherwise. Obviously, (A$^2$)$_x$$_y$ is the number of common neighbors of nodes x and y, which is also equal to the number of different paths with length 2 connecting x and y. And if x and y are not directly connected , (A$^3$)$_x$$_y$ is equal to the number of different paths with length 3 connecting x and y. The information contained in A$^3$ can be used to break the degeneracy of the states, and thus we define a new measure as
+
+\begin{equation}
+\centerline{
+$S$=
+A$^2$ + $\varepsilon$A$^3$
+}
+\end{equation}
+The score of $S_x$$_y$ correspond to the element is S. And in our experiment we set 
+$\varepsilon$= 0.2.
+
+
+(3) Three order Similarity Index (SA). This algorithm are proposed in this study, the purpose was to magnify the recovery accuracy of the traffic routes. $\Gamma$$^3$(x) means the set of first order neighbor second order neighbor and third order neighbor in all.
+\begin{equation}
+\centerline{
+$S_x$$_y$=
+$|$$\Gamma$$^3$(x) $\cap$ $\Gamma$$^3$(y)$|$
+}
+\end{equation}
+
+\noindent {\bf The followed four algorithm are the transformer of the above three algorithm.}
+
+(4) Reverse Preferential Attachment Index (RPA). simply put the numerator into denominator, which means nodes with less neighbors play a more important role.
+
+
+%$S_x$$_y$=$\frac{1}{k$_x$ * k$_y$}$
+\begin{equation}
+\centerline{
+$S_x$$_y$=
+1.0 / k$_x$ * k$_y$
+}
+\end{equation}
+
+(5) Reverse Add Preferential Attachment Index (RAPA). One different from RPA is that at the denominator part we transfer multiply into add.
+
+
+%$S_x$$_y$=$\frac{1}{k$_x$ * k$_y$}$
+\begin{equation}
+\centerline{
+$S_x$$_y$=
+1.0/ (k$_x$ + k$_y$)
+}
+\end{equation}
+
+(6) Reverse Local Path Index (RLP). simply put the numerator into denominator
+
+\begin{equation}
+\centerline{
+$S$=
+1.0/ A$^2$ + $\varepsilon$A$^3$
+}
+\end{equation}
+The score of $S_x$$_y$ correspond to the element is S. And in our experiment we set 
+$\varepsilon$= 0.2.
+
+
+(7) Reverse Three order Similarity Index (RSA). simply put the numerator into denominator
+\begin{equation}
+\centerline{
+$S_x$$_y$=
+1.0/ $|$$\Gamma$$^3$(x) $\cap$ $\Gamma$$^3$(y)$|$
+}
+\end{equation}
+
+
+
 
 \section*{DATASETS\protect}
 To verify our methods, we have conducted varies experiments on three kinds of networks. The networks are as below:
@@ -96,16 +177,18 @@ $4)$To verify the efficiency of different methods based on link prediction, we h
 
 {\bf In each time step}, each node generates $\frac{R}{N}$ packets, where N is the size of the network and R is a parameter tuning the generation rate, i.e., there are R packets generated in the network at each step. When $\frac{R}{N}$ is not an integer, we create Int($\frac{R}{N}$) packets determinately and create a packet simultaneously with probability p=$\frac{R}{N}$ - Int($\frac{R}{N}$), where Int($\frac{R}{N}$) is the integral part of $\frac{R}{N}$ and thus p is the fractional part. The packets are initialized with random destinations. Moreover, we set a transmission capacity $C_i$ to the node i, i=1,2, ... ,N, which means that, at each time step, the maximal number of packets transferred by the node i to the next node according to the routing table is $C_i$ . When the node cannot transfer all the packets accumulated in its queue, it deals with them following the ﬁrst-in-ﬁrst-out rule. Hence, the routing strategy also plays an important role in the trafﬁc dynamics. We see that, in the Internet, the routing strategy of within domains is the shortest path algorithm and, between domains, i.e., for the AS level, the border gateway protocol causes the packets to be transmitted along almost the shortest path\cite{BVL}. Therefore, in the paper, we adopt the shortest path routing strategy. When a packet reaches its destination through the shortest path routing, the packet will be deleted from the system.In order to analyze the transition from free ﬂow to a congested state, we use the order parameter presented in previous studies\cite{MEN},
 
+\begin{equation}
 \centerline{
 $\mu<R>=$
 $\lim\limits_{t \to \infty }{\frac{< \bigtriangleup w >}{R\bigtriangleup t}}$
 }
+\end{equation}
 
 where W(t) is deﬁned as the number of packets on the network at time step t, and W=W(t+t)−W(t), with $<…>$ indicating averaging over time windows of width t. In other words, the order parameterμrepresents the ratio between the existing ﬂow and the inﬂow of packets calculated through a long enough time period. Obviously, in the free ﬂow state, i.e., where there is no congestion in the network, the system can deal with the generated packets and thus the existing ﬂow is close to zero. Otherwise, in the congested state, the number of generated packets is too large to be transmitted and the ﬂow existing in the network will also be large, which causes the order parameter to approach 1.
 
 \noindent {\bf 2.Metrics for evaluation}
 
-We have got eight methods to recovery the links in the network. Different methods get different recovery efficiency. First we initialized an array like bestPerform = [0, 0, 0, 0, 0, 0, 0, 0], the array contains 8 elements and each element correspond to a method, the methods are [Random, PA, RPA, RAPA, LP, RLP, SA, RSA] in order. In a certain congestion  situation, we use these different methods to recover the links respectively, when we have finished the recovery of the roads, we will calculate the order parameter $\mu<R>=$. If one method get a lowest order parameter in this period (recovery process) of time, we will choose the corresponding element in the array bestPerform and add by 1. We will repeat the process in a certain times, and finally count the elements in the  bestPerform. If an element got the highest value, then it means that the corresponding methods performs best in the link recovery.
+We have got eight methods to recovery the links in the network. Different methods get different recovery efficiency. First we initialized an array like bestPerform = [0, 0, 0, 0, 0, 0, 0, 0], the array contains 8 elements and each element correspond to a method, the methods are [Random, PA, RPA, RAPA, LP, RLP, SA, RSA] in order. In a certain congestion  situation, we use these different methods to recover the links respectively, when we have finished the recovery of the roads, we will calculate the order parameter $\mu<R>$. If one method get a lowest order parameter in this period (recovery process) of time, we will choose the corresponding element in the array bestPerform and add by 1. We will repeat the process in a certain times, and finally count the elements in the  bestPerform. If an element got the highest value, then it means that the corresponding methods performs best in the link recovery.
 
 \noindent {\bf 3.Result}
 
@@ -172,12 +255,26 @@ Yichao Zhang and Xing Li contribute equally.
 
 \section*{References}
 \begin{thebibliography}{00}
+
+\bibitem{SV}Lü, Linyuan, and T. Zhou. "Link prediction in complex networks: A survey." Physica A Statistical Mechanics \& Its Applications 390.6(2011):1150-1170.
+
+
+\bibitem{WG}Xie Y B, Zhou T, Wang B H. Scale-free networks without growth[J]. Physica A Statistical Mechanics \& Its Applications, 2008, 387(7):1683-1688.
+
+\bibitem{LI}Zhou T, Lü L, Zhang Y C. Predicting missing links via local information[J]. \bibitem{AC}The European Physical Journal B, 2009, 71(4):623-630.
+Ackland R, Ackland R. Mapping the U.S. Political Blogosphere: Are Conservative Bloggers More Prominent?[C]// 2005.
+
 \bibitem{BA}A.-L. Barabási and R. Albert, Science 286, 509 (1999).
+
 \bibitem{PML}Zhou T, Lü L, Zhang Y C. Predicting missing links via local information[J]. The European Physical Journal B, 2009, 71(4):623-630.
 71(4):623–630. 
+
 \bibitem{KD}Zhang Y, Aziz-Alaoui M A, Bertelle C, et al. Knowledge Diffusion in Complex Networks[C]// IEEE, Intl Conf on Ubiquitous Intelligence and Computing and 2015 IEEE, Intl Conf on Autonomic and Trusted Computing and 2015 IEEE, Intl Conf on Scalable Computing and Communications and ITS Associated Workshops. 2015.
+
 \bibitem{SW}Watts DJ, Strogatz SH. Collectivedynamics of ’small-world’ networks[C]// Nature. 1998:440-442.
-\bibitem{BVL}S. Boccaletti, V. Latora, Y. Moreno, M. Chavez, and D.-U.Hwang, Phys. Rep. 424, 175 (2006).%5
+
+\bibitem{BVL}S. Boccaletti, V. Latora, Y. Moreno, M. Chavez, and D.-U.Hwang, Phys. Rep. 424, 175 (2006).
+
 \bibitem{MEN}S. N. Dorogovtsev, J. F. F. Mendes. Evolution of networks[M]// Evolution of networks :. Oxford University Press, 2003:1842-1845.
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.16)  22 NOV 2016 01:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.16)  22 NOV 2016 05:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -320,16 +320,18 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Class revtex4 Warning: If you want your PACS to appear in your output, use docu
 ment class option showpacs.
 
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ó in font cmr10!
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -348,6 +350,8 @@ Missing character: There is no Å in font cmr10!
 Missing character: There is no Ô in font cmr10!
 Missing character: There is no ¨ in font cmr10!
 Missing character: There is no Å in font cmr10!
+
+[2]
 Missing character: There is no Ô in font cmr10!
 Missing character: There is no ¨ in font cmr10!
 Missing character: There is no Å in font cmr10!
@@ -395,35 +399,38 @@ Missing character: There is no Ç in font cmr10!
 Missing character: There is no Ô in font cmr10!
 Missing character: There is no ¨ in font cmr10!
 Missing character: There is no Ç in font cmr10!
-
-[2] <road.png, id=26, 362.3136pt x 217.7736pt>
+ [3] <road.png, id=29, 362.3136pt x 217.7736pt>
 File: road.png Graphic file (type png)
  <use road.png>
-Package pdftex.def Info: road.png used on input line 113.
+Package pdftex.def Info: road.png used on input line 196.
 (pdftex.def)             Requested size: 362.31271pt x 207.73557pt.
 
-<baFlow.png, id=28, 362.3136pt x 217.7736pt>
+<baFlow.png, id=31, 362.3136pt x 217.7736pt>
 File: baFlow.png Graphic file (type png)
  <use baFlow.png>
-Package pdftex.def Info: baFlow.png used on input line 121.
+Package pdftex.def Info: baFlow.png used on input line 204.
 (pdftex.def)             Requested size: 362.31271pt x 207.73557pt.
-
-<fractionSize.png, id=29, 362.3136pt x 217.7736pt>
+ [4 <./road.png> <./baFlow.png>] <fractionSize.png, id=37, 362.3136pt x 217.773
+6pt>
 File: fractionSize.png Graphic file (type png)
- <use fractionSize.png>
-Package pdftex.def Info: fractionSize.png used on input line 142.
-(pdftex.def)             Requested size: 362.31271pt x 207.73557pt.
 
-[3 <./road.png> <./baFlow.png>] <baSize.png, id=35, 362.3136pt x 217.7736pt>
+<use fractionSize.png>
+Package pdftex.def Info: fractionSize.png used on input line 225.
+(pdftex.def)             Requested size: 362.31271pt x 207.73557pt.
+ <baSize.png, id=38, 362.3136pt x 217.7736pt>
 File: baSize.png Graphic file (type png)
 
 <use baSize.png>
-Package pdftex.def Info: baSize.png used on input line 151.
+Package pdftex.def Info: baSize.png used on input line 234.
 (pdftex.def)             Requested size: 362.31271pt x 207.73557pt.
 Missing character: There is no Ô in font cmr10!
 Missing character: There is no º in font cmr10!
 Missing character: There is no å in font cmr10!
- [4 <./fractionSize.png> <./baSize.png>]
+ [5 <./fractionSize.png> <./baSize.png>]
+Missing character: There is no √ in font cmr9!
+Missing character: There is no º in font cmr9!
+Missing character: There is no √ in font cmr9!
+Missing character: There is no º in font cmr9!
 Missing character: There is no √ in font cmr9!
 Missing character: There is no ° in font cmr9!
 Missing character: There is no √ in font cmr9!
@@ -437,17 +444,17 @@ Missing character: There is no ô in font cmr9!
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ô in font cmr9!
- [5]
+ [6]
 (./LP in Traffic.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4255 strings out of 493014
- 55315 string characters out of 6133351
- 137369 words of memory out of 5000000
- 7708 multiletter control sequences out of 15000+600000
+ 4267 strings out of 493014
+ 55437 string characters out of 6133351
+ 137422 words of memory out of 5000000
+ 7720 multiletter control sequences out of 15000+600000
  16629 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,8n,28p,1635b,293s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -468,10 +475,10 @@ e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2016/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on "LP in Traffic.pdf" (5 pages, 327188 bytes).
+Output written on "LP in Traffic.pdf" (6 pages, 334403 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 100 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
