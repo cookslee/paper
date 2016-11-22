@@ -46,7 +46,14 @@ With the rapid development of information and communication technology, we can a
 \section*{INTRODUCTION\protect}
 Network structures have been studied for many years. First research in this area can be traced back to 1736 when Euler defined and solved the Seven Bridges problem of Königsberg\cite{GTC}. There was not much ground breaking development in the complex network research area until 1960s, when the Erdos-Renyi random graph model (ER–model) was introduced. Due to the fact that there was a lack of large real world data, most of the work had been done on the  analysis of phenomena existing in networked structures. During the time when ER–model was introduced, progress has also been made by sociologists in researching real world human relationships . A new wave of research was set off by Watts and Strogatz who published a paper about the small– world effect in 1998 and introduction of the scale–free net- work model by Barabasi and Albert one year later.
 
-Link prediction in complex network is one of the popular research topics. Generally, the prediction problem is mainly studied from two angles: (i) network structure and (ii) attributes of nodes and connections. Structure reflects the information about network topology. Majority of the progress in the area of structure based prediction has been made by mathematicians and physicists. Some of the well known structure based prediction methods are Common Neighbor, Preferential Attachment Index, Adamic-Adar Index, Katz, etc. The link prediction problem also has been studied from the angle of the network attribute information.The majority of attribute-based prediction methods follow a machine learning approach, i.e. they use classification–based methods to make predictions. Authors report that the performance of link pre- diction improves when machine learning approaches are used. However, this is done using additional network information that is not always available\cite{LPU,NPA,LPC,WWC,SRM}. 
+Link prediction in complex network is one of the popular research topics. Generally, the prediction problem is mainly studied from two angles: (i) network structure and (ii) attributes of nodes and connections. Structure reflects the information about network topology. Majority of the progress in the area of structure based prediction has been made by mathematicians and physicists. Some of the well known structure based prediction methods are Common Neighbor, Preferential Attachment Index, Adamic-Adar Index, Katz, etc. The link prediction problem also has been studied from the angle of the network attribute information. The majority of attribute-based prediction methods follow a machine learning approach, i.e. they use classification–based methods to make predictions. Authors \cite{LPU,NPA,LPC,WWC,SRM} report that the performance of link pre- diction improves when machine learning approaches are used. However, this is done using additional network information that is not always available. Since the attribute of nodes is hard to achieve ,so in our research we mainly focus on network structure algorithms.
+
+The transportation network is one of the three most important networks created by human society (transportation, energy and information). Network analysis is to explore the spatial relationship (structure) characteristics and service  of transportation system. Because it is closely related to people's lives, Multi-disciplines from different perspectives doing researches on transportation problem.
+Geography focuses on analyzing the spatial pattern, temporal and spatial evolution of transportation networks and their relationship with economic and social development\cite{GME,GOT}. Traffic planning is focused on the study of traffic demand or the impact of traffic on the road network, design and planing\cite{UTN}. Operations research tends to analyze transport network and transportation organization optimization, such as TSP problem, transport problems, vehicle path problems.
+
+With the rapidly development of modern society, the traffic problem has attracted a lot of attention. Most of the previous study in transportation mainly focus on the design of the transportation routes, while it can't avoid congestion totally. Once the transportation system become congested, we need to find a way to solve it. Link Prediction method have a history of nearly 20 years, it has become a mature subject.
+Link prediction has been applied in the analysis of social networks, biological networks such as protein-protein interaction networks, metabolic networks and food webs, personalized recommendation, etc\cite{NHS,TOM,SPR,TZ,SAD,CAA}. Inspired by link prediction, we ranked the congested traffic routes(BA network, USAir, Road network) and recover the routes in order. From our result we can see the reverse of link prediction method can efficiently recovery the congested routes.
+
 
 \section*{RELATED WORK\protect}
 The simplest framework of link prediction methods is the similarity-based algorithm, where each pair of nodes x and y, is assigned a score $s_x$$_y$, which is directly defined as the similarity between x and y. Similarity-based algorithm are classified into three categories: local indices; global indices; quasi-local indices, which do not require global topological information but make use of more information than local indices\cite{SV}. Considered of computation complexity here in our experiment we use two classic algorithm: PA in local indices and LP in quasi-local indices and other transformed algorithms.
@@ -257,6 +264,21 @@ Yichao Zhang and Xing Li contribute equally.
 \bibitem{WWC}Andrew Chen-Brian Tran Ole J. Mengshoel, Raj Desai. Will we connect again? machine learning for link prediction in mobile social networks. 2013.
 
 \bibitem{SRM}Kai Yu, Wei Chu, Shipeng Yu, Volker Tresp, and Zhao Xu. Stochasticrelational models for discriminative link prediction. In Advances in Neural Information Processing Systems, pages 333–340. MIT Press, 2007.
+
+\bibitem{GME}Edward J Taaffe，Howard L Gauthier,Morton E.0’KeHy.Geography of Transportation(2nd).Prentice Hall，1996.
+
+\bibitem{GOT}odrigue J P et a1.ne Geography of Transport Systems，Hofstra Univemity.Department of Economics\& Geogra
+
+\bibitem{UTN}Sheffi，Yose[Urban Transportation Networks:Equilibrium Analysis with Mathematical Programming Methods.Prentice-Hall，Inc，1 985.
+
+\bibitem{NHS}A. Clauset, C. Moore, M. E. J. Newman, Hierarchical structure and the prediction of missing links in networks, Nature 453 (2008) 98.\bibitem{TOM}S. Redner, Teasing out the missing links, Nature 453 (2008) 47.
+
+\bibitem{SPR}J. O’Madadhain, J. Hutchins, P. Smyth, Prediction and ranking algorithms for event-based network data, In Proceedings of SIGKDD 2005, ACM Press, New York, 2005, p. 23.
+
+\bibitem{TZ}T. Zhou, J. Ren, M. Medo, Y.-C. Zhang, Bipartite network projection and personal recommendation, Phys. Rev.E 76 (2007) 046115.
+
+\bibitem{SAD}T. Zhou, Z. Kuscsik, J.-G. Liu, M. Medo, J. R. Wakeling, Y.-C. Zhang, Solving the apparent diversity-accuracy dilemma of recommender systems, Proc. Natl. Acad. Sci. U.S.A. 107 (2010) 4511.
+\bibitem{CAA}W. Zeng, M.-S. Shang, Q.-M. Zhang, L. Lu ̈, T. Zhou, Can dissimilar users contribute to accuracy and diversity of personalized recommendation, Int. J. Mod. Phys. C (to be published).
 
 \bibitem{SV}Lü, Linyuan, and T. Zhou. "Link prediction in complex networks: A survey." Physica A Statistical Mechanics \& Its Applications 390.6(2011):1150-1170.
 
