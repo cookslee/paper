@@ -7,6 +7,7 @@
 \usepackage{bm}% bold math
 \usepackage{color}
 
+
 %\nofiles
 
 \begin{document}
@@ -81,12 +82,8 @@ $|$$\Gamma$$^3$(x) $\cap$ $\Gamma$$^3$(y)$|$
 (4) Reverse Preferential Attachment Index (RPA). simply put the numerator into denominator, which means nodes with less neighbors play a more important role.
 
 
-%$S_x$$_y$=$\frac{1}{k$_x$ * k$_y$}$
 \begin{equation}
-\centerline{
-$S_x$$_y$=
-1.0 / k$_x$ * k$_y$
-}
+S_{xy}=\frac{1}{k_x \times k_y}
 \end{equation}
 
 (5) Reverse Add Preferential Attachment Index (RAPA). One different from RPA is that at the denominator part we transfer multiply into add.
@@ -94,19 +91,13 @@ $S_x$$_y$=
 
 %$S_x$$_y$=$\frac{1}{k$_x$ * k$_y$}$
 \begin{equation}
-\centerline{
-$S_x$$_y$=
-1.0/ (k$_x$ + k$_y$)
-}
+S_{xy}=\frac{1}{k_x + k_y}
 \end{equation}
 
 (6) Reverse Local Path Index (RLP). simply put the numerator into denominator
 
 \begin{equation}
-\centerline{
-$S$=
-1.0/ A$^2$ + $\varepsilon$A$^3$
-}
+S=\frac{1}{A^2 + \varepsilon A^3}
 \end{equation}
 The score of $S_x$$_y$ correspond to the element is S. And in our experiment we set 
 $\varepsilon$= 0.2.
@@ -114,10 +105,7 @@ $\varepsilon$= 0.2.
 
 (7) Reverse Three order Similarity Index (RSA). simply put the numerator into denominator
 \begin{equation}
-\centerline{
-$S_x$$_y$=
-1.0/ $|$$\Gamma$$^3$(x) $\cap$ $\Gamma$$^3$(y)$|$
-}
+S_{xy}=\frac{1}{ |\Gamma^3(x) \cap \Gamma^3(y)|}
 \end{equation}
 
 
