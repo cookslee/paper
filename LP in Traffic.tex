@@ -44,6 +44,9 @@ With the rapid development of information and communication technology, we can a
 \maketitle
 
 \section*{INTRODUCTION\protect}
+Network structures have been studied for many years. First research in this area can be traced back to 1736 when Euler defined and solved the Seven Bridges problem of Königsberg\cite{GTC}. There was not much ground breaking development in the complex network research area until 1960s, when the Erdos-Renyi random graph model (ER–model) was introduced. Due to the fact that there was a lack of large real world data, most of the work had been done on the  analysis of phenomena existing in networked structures. During the time when ER–model was introduced, progress has also been made by sociologists in researching real world human relationships . A new wave of research was set off by Watts and Strogatz who published a paper about the small– world effect in 1998 and introduction of the scale–free net- work model by Barabasi and Albert one year later.
+
+Link prediction in complex network is one of the popular research topics. Generally, the prediction problem is mainly studied from two angles: (i) network structure and (ii) attributes of nodes and connections. Structure reflects the information about network topology. Majority of the progress in the area of structure based prediction has been made by mathematicians and physicists. Some of the well known structure based prediction methods are Common Neighbor, Preferential Attachment Index, Adamic-Adar Index, Katz, etc. The link prediction problem also has been studied from the angle of the network attribute information.The majority of attribute-based prediction methods follow a machine learning approach, i.e. they use classification–based methods to make predictions. Authors report that the performance of link pre- diction improves when machine learning approaches are used. However, this is done using additional network information that is not always available\cite{LPU,NPA,LPC,WWC,SRM}. 
 
 \section*{RELATED WORK\protect}
 The simplest framework of link prediction methods is the similarity-based algorithm, where each pair of nodes x and y, is assigned a score $s_x$$_y$, which is directly defined as the similarity between x and y. Similarity-based algorithm are classified into three categories: local indices; global indices; quasi-local indices, which do not require global topological information but make use of more information than local indices\cite{SV}. Considered of computation complexity here in our experiment we use two classic algorithm: PA in local indices and LP in quasi-local indices and other transformed algorithms.
@@ -243,6 +246,17 @@ Yichao Zhang and Xing Li contribute equally.
 
 \section*{References}
 \begin{thebibliography}{00}
+
+\bibitem{GTC}N. Biggs, E. K. Lloyd, and R. J. Wilson. Graph Theory, 1736-1936. Claren- don Press, New York, NY, USA, 1986.
+
+\bibitem{LPU}MohammadAlHasan,VineetChaoji,SaeedSalem,andMohammedZaki. Link prediction using supervised learning. In In Proc. of SDM 06 workshop on Link Analysis, Counterterrorism and Security, 2006.
+
+\bibitem{NPA}Ryan N. Lichtenwalter, Jake T. Lussier, and Nitesh V. Chawla. New per- spectives and methods in link prediction. In Proceedings of the 16th ACM SIGKDD International Conference on Knowledge Discovery and Data Min- ing, KDD ’10, pages 243–252, New York, NY, USA, 2010. ACM.
+\bibitem{LPC}Zhen Liu, Qian-Ming Zhang, Linyuan Lü, and Tao Zhou. Link prediction in complex networks: A local naïve bayes model. EPL (Europhysics Letters), 96(4):48007, 2011.
+
+\bibitem{WWC}Andrew Chen-Brian Tran Ole J. Mengshoel, Raj Desai. Will we connect again? machine learning for link prediction in mobile social networks. 2013.
+
+\bibitem{SRM}Kai Yu, Wei Chu, Shipeng Yu, Volker Tresp, and Zhao Xu. Stochasticrelational models for discriminative link prediction. In Advances in Neural Information Processing Systems, pages 333–340. MIT Press, 2007.
 
 \bibitem{SV}Lü, Linyuan, and T. Zhou. "Link prediction in complex networks: A survey." Physica A Statistical Mechanics \& Its Applications 390.6(2011):1150-1170.
 
