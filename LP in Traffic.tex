@@ -44,15 +44,48 @@ With the rapid development of information and communication technology, we can a
 \maketitle
 
 \section*{INTRODUCTION\protect}
-Network structures have been studied for many years. First research in this area can be traced back to 1736 when Euler defined and solved the Seven Bridges problem of Königsberg\cite{GTC}. There was not much ground breaking development in the complex network research area until 1960s, when the Erdos-Renyi random graph model (ER–model) was introduced. Due to the fact that there was a lack of large real world data, most of the work had been done on the  analysis of phenomena existing in networked structures. During the time when ER–model was introduced, progress has also been made by sociologists in researching real world human relationships . A new wave of research was set off by Watts and Strogatz who published a paper about the small– world effect in 1998 and introduction of the scale–free net- work model by Barabasi and Albert one year later.
 
-Link prediction in complex network is one of the popular research topics. Generally, the prediction problem is mainly studied from two angles: (i) network structure and (ii) attributes of nodes and connections. Structure reflects the information about network topology. Majority of the progress in the area of structure based prediction has been made by mathematicians and physicists. Some of the well known structure based prediction methods are Common Neighbor, Preferential Attachment Index, Adamic-Adar Index, Katz, etc. The link prediction problem also has been studied from the angle of the network attribute information. The majority of attribute-based prediction methods follow a machine learning approach, i.e. they use classification–based methods to make predictions. Authors \cite{LPU,NPA,LPC,WWC,SRM} report that the performance of link pre- diction improves when machine learning approaches are used. However, this is done using additional network information that is not always available. Since the attribute of nodes is hard to achieve ,so in our research we mainly focus on network structure algorithms.
+Since 1736 Euler defined and solved the Seven Bridges problem of Königsberg, there was not much ground breaking development in the complex network research area until 1960s, when the Erdos-Renyi random graph model (ER–model) was introduced. A new wave of research was set off by Watts and Strogatz who published a paper about the small– world effect in 1998 and introduction of the scale–free network model by Barabasi and Albert one year later. The number of publications in the last 17 years in complex networks is more than the total appearance before 1999. In our living world, many systems can be modeled as complex networks where nodes represent the basic units of a system and links stands for the interactions between the nodes\cite{TFWN}. Complex networks has been a research field focus on not only science but also engineering for the last few decades\cite{PSV,AEM,KIG,BTS,LZYC,HHM,RAA,SND,MEJ,SBV}.
 
-The transportation network is one of the three most important networks created by human society (transportation, energy and information). Network analysis is to explore the spatial relationship (structure) characteristics and service  of transportation system. Because it is closely related to people's lives, Multi-disciplines from different perspectives doing researches on transportation problem.
-Geography focuses on analyzing the spatial pattern, temporal and spatial evolution of transportation networks and their relationship with economic and social development\cite{GME,GOT}. Traffic planning is focused on the study of traffic demand or the impact of traffic on the road network, design and planing\cite{UTN}. Operations research tends to analyze transport network and transportation organization optimization, such as TSP problem, transport problems, vehicle path problems.
 
-With the rapidly development of modern society, the traffic problem has attracted a lot of attention. Most of the previous study in transportation mainly focus on the design of the transportation routes, while it can't avoid congestion totally. Once the transportation system become congested, we need to find a way to solve it. Link Prediction method have a history of nearly 20 years, it has become a mature subject.
-Link prediction has been applied in the analysis of social networks, biological networks such as protein-protein interaction networks, metabolic networks and food webs, personalized recommendation, etc\cite{NHS,TOM,SPR,TZ,SAD,CAA}. Inspired by link prediction, we ranked the congested traffic routes(BA network, USAir, Road network) and recover the routes in order. From our result we can see the reverse of link prediction method can efficiently recovery the congested routes.
+Modern world depends greatly on the efficient operation of many critical infrastructures such as Internet, airlines, power grid and so on\cite{TCIC}. Researcheres on such fields realize that such systems can be modeled within the framework of complex networks. Traffic on such networks is a vital problem. Recently, more attentions has been given to the traffic congestion problem in transportation networks, understanding network congestion has become a subject of intense research in this field. 
+
+Zhao et al. proposed two models to address the problem: (1) The capacity of delivery of each node is proportional to its degree; (2) The delivery capacity of each node is proportional to its betweenness. They have found that in the first model, random networks and scale-free networks are more tolerant to congestion than regular networks
+and Cayley trees. For the second model, the crowded degree is independent of the network topology and size, so this model may be useful for communication protocols\cite{LZY}.
+In their work, Boccaketti et al. thought that in transportation networks, the factors that affect the global performance are the traffic load of a road, that is to say the number of the passengers in the airport or the passengers in the subways. They also doing experiments to remove a small fraction of nodes simulating the breakdown of an Internet router or transportation system, such removals will change the shortest paths between nodes and the distribution of the loads and creating overloads on some nodes.
+After the experiment, they found that homogeneous network does not experience cascading failures due either to random breakdown or to intentional attacks. While for the heterogeneous network, cascades triggered by the attack on a key node can causes serious congestion problem, homogeneous networks appear to be more resistant to cascading failures than the heterogeneous ones\cite{SBV}.
+Toroczkai et al. have compared the congestion in gradient networks generated by either random or scale-free substrates, finding that in the latter case the networks are less prone to jamming\cite{ZTKE,ZTBE}.
+Roger et al. thought that the system only behaves efficiently when the amount of packages handled is small enough. The network collapses above a certain threshold and some packages is accumulated. They found that independently of the topology(1D, 2D and Cayley), the collection of models can be split into three groups according to how the network collapses. In the first group, agents deliver more packets as they are more congested, although their capability decreases, and the network never collapses. In the second group, agents deliver always the same number of packets independently of their load—number of packets to deliver; this behavior leads to a continuous phase transition. Finally, when agents deliver fewer packets as their loads increase, the transition to the congested phase is discontinuous and the network collapses in an inhomogeneous way giving rise to congestion nuclei\cite{RGA}.%comes originally from the paper
+
+
+Compared with the potential costs of changing the structure of well-established networked systems, proposals of clever routing criteria seem to be more practicaland thus attract much interest.
+Daniele et al. tested a trade-off strategy between traffic based and topological based
+routing on scale-free networks and found that traffic control is useless in homogeneous networks but may useful in inhomogeneous networks\cite{DDL}. 
+Gang Yan et al. propose a routing strategy to improve the transportation efficiency on complex networks. Instead of using the routing strategy for shortest path, they give a generalized routing algorithm to find the so-called "efficient path", which considers the possible congestion in the nodes along actual paths. Since the nodes with thelargest degree are very susceptible to traffic congestion, an effective way to improve traffic and control congestion can be redistributing traffic load in central nodes to other non-central nodes. Simulation results indicate that the network capability in processing traffic is improved more than 10 times by optimizing the efficient path\cite{GYT}.
+Xiang et al. propose a global dynamic routing strategy for network systems based on the information of the queue length of nodes. Under this routing strategy, the trafficcapacity is further improved compared with Gang\cite{GYT}. With time delay of updating node queue lengths and the corresponding paths, the system capacity remains constant, while the travel time for packets increases\cite{XLM}.
+Danila et al.'s algorithm balances traffic on a network by minimizing the maximum node betweenness with as little path lengthening as possible, thus being useful in cases when networks are jamming due to queuing overload. By using the resulting routing table, a network can sustain significantly higher traffic without jamming than in the case of traditional shortest path routing\cite{BDY}.
+Tan Fei et al. proposed a routing algorithm that combines static structural properties and dynamic traffic conditions together and therefore can balance the traffic between hubs and peripheral nodes more effectively\cite{FTY}.
+Guan et al. focus their research on traffic dynamics of a spatial scale-free network with the restriction of bandwidth proportional to link Euclidean distance, and a new routing strategy is proposed with consideration of both Euclidean distance and betweenness centralities (BC) of edges. It is found that compared with the shortest distance path (SDP) strategy and the minimum betweenness centralities (MBC) of links strategy, their strategy under some parameters can efficiently balance the traffic load and avoid excessive traveling distance which can improve the spatial network capacity and some system behaviors reflecting transportation efficiency, such as average packets traveling time, average packets waiting time and system throughput, traffic load and so on\cite{XLMD}.
+
+
+
+In practice it is often difficult to change a network’s routing protocol or topology. The above works have assumed that all nodes or links are assigned with uniformresources. This simplified scenario allows researchers to study the pure contribution of the routing algorithms and the topology. However it is unrealistic as in real networks resources are rarely distributed uniformly.Zhang et al. come up with a practical and effective approach to allocate the resources in a network such that network elements that handle higher volumes of traffic load have more resources whereas those that handle less load have fewer resources. The results show that our scheme enhances the transmission capacity of networks with heterogeneous structures by up to two orders of magnitude\cite{GQZ}.
+
+Link prediction in complex network is one of the popular research topics. Generally, the prediction problem is mainly studied from two angles: (i) network structure and (ii) attributes of nodes and connections. Structure reflects the information about network topology. Majority of the progress in the area of structure based prediction has been made by mathematicians and physicists. Some of the well known structure based prediction methods are Common Neighbor, Preferential Attachment Index, Adamic-Adar Index, Katz, etc. The link prediction problem also has been studied from the angle of the network attribute information. The majority of attribute-based prediction methods follow a machine learning approach, i.e. they use classification–based methods to make predictions. Authors \cite{LPU,NPA,LPC,WWC,SRM} report that the performance of link prediction improves when machine learning approaches are used. However, this is done using additional network information that is not always available. Since the attribute of nodes is hard to achieve ,so in our research we mainly focus on network structure algorithms.
+
+
+
+
+
+%Network structures have been studied for many years. First research in this area can be traced back to 1736 when Euler defined and solved the Seven Bridges problem of Königsberg\cite{GTC}. There was not much ground breaking development in the complex network research area until 1960s, when the Erdos-Renyi random graph model (ER–model) was introduced. Due to the fact that there was a lack of large real world data, most of the work had been done on the  analysis of phenomena existing in networked structures. During the time when ER–model was introduced, progress has also been made by sociologists in researching real world human relationships . A new wave of research was set off by Watts and Strogatz who published a paper about the small– world effect in 1998 and introduction of the scale–free net- work model by Barabasi and Albert one year later.
+
+%Link prediction in complex network is one of the popular research topics. Generally, the prediction problem is mainly studied from two angles: (i) network structure and (ii) attributes of nodes and connections. Structure reflects the information about network topology. Majority of the progress in the area of structure based prediction has been made by mathematicians and physicists. Some of the well known structure based prediction methods are Common Neighbor, Preferential Attachment Index, Adamic-Adar Index, Katz, etc. The link prediction problem also has been studied from the angle of the network attribute information. The majority of attribute-based prediction methods follow a machine learning approach, i.e. they use classification–based methods to make predictions. Authors \cite{LPU,NPA,LPC,WWC,SRM} report that the performance of link pre- diction improves when machine learning approaches are used. However, this is done using additional network information that is not always available. Since the attribute of nodes is hard to achieve ,so in our research we mainly focus on network structure algorithms.
+
+%The transportation network is one of the three most important networks created by human society (transportation, energy and information). Network analysis is to explore the spatial relationship (structure) characteristics and service  of transportation system. Because it is closely related to people's lives, Multi-disciplines from different perspectives doing researches on transportation problem.
+%Geography focuses on analyzing the spatial pattern, temporal and spatial evolution of transportation networks and their relationship with economic and social development\cite{GME,GOT}. Traffic planning is focused on the study of traffic demand or the impact of traffic on the road network, design and planing\cite{UTN}. Operations research tends to analyze transport network and transportation organization optimization, such as TSP problem, transport problems, vehicle path problems.
+
+%With the rapidly development of modern society, the traffic problem has attracted a lot %of attention. Most of the previous study in transportation mainly focus on the design %of the transportation routes, while it can't avoid congestion totally. Once the %transportation system become congested, we need to find a way to solve it. Link %Prediction method have a history of nearly 20 years, it has become a mature subject.
+%Link prediction has been applied in the analysis of social networks, biological %networks such as protein-protein interaction networks, metabolic networks and food %webs, personalized recommendation, etc\cite{NHS,TOM,SPR,TZ,SAD,CAA}. Inspired by link %prediction, we ranked the congested traffic routes(BA network, USAir, Road network) and %recover the routes in order. From our result we can see the reverse of link prediction %method can efficiently recovery the congested routes.
 
 
 \section*{RELATED WORK\protect}
@@ -254,31 +287,53 @@ Yichao Zhang and Xing Li contribute equally.
 \section*{References}
 \begin{thebibliography}{00}
 
+\bibitem{TFWN}Traffic fluctuation on weighted networks
+
+\bibitem{PSV} R. Pastor-Satorras and A. Vespignani, “Epidemic spreading in scale-free networks,” Phys. Rev. Lett., vol. 86, pp. 3200–3203, 2001.
+\bibitem{AEM} A. E. Motter and Y. C. Lai, “Cascade-based attacks on complex net- works,” Phys. Rev. E, vol. 66, no. 065102, 2002.
+\bibitem{KIG} K. I. Goh, D. S. Lee, B. Kahng, and D. Kim, “Sandpile on scale-free net- works,” Phys. Rev. Lett., vol. 91, no. 148701, 2003.
+\bibitem{BTS} B. Tadic ́, S. Thurner, and G. J. Rodgers, “Traffic on complex networks: Towards understanding global statistical properties from microscopic density fluctuations,” Phys. Rev. E, vol. 69, no. 036102, 2004.
+\bibitem{LZYC} L. Zhao, Y. C. Lai, K. Park, and N. Ye, “Onset of traffic congestion in com- plex networks,” Phys. Rev. E, vol. 71, no. 026125, 2005.
+\bibitem{HHM} H. Hong, M. Y. Choi, and B. J. Kim, “Synchronization on small-world net- works,” Phys. Rev. E, vol. 65, no. 026139, 2002.
+\bibitem{RAA} R. Albert and A.-L. Barabási, “Statistical mechanics of complex net- works,” Rev. Mod. Phys., vol. 74, pp. 47–97, 2002.
+\bibitem{SND} S. N. Dorogvtsev and J. F. F. Mendes, “Evolution of networks,” Adv. Phys., vol. 51, pp. 1079–1187, 2002.
+\bibitem{MEJ} M. E. J. Newman, “The structure and function of complex networks,” SIAM Rev., vol. 45, pp. 167–256, 2003.
+\bibitem{SBV} S. Boccaletti, V. Latora, Y. Moreno, M. Chavez, and D.-U. Hwanga, “Com- plex networks: Structure and dynamics,” Phys. Rep., vol. 424, pp. 175–308, 2006.
+
+\bibitem{TCIC}Traffic congestion in interconnected complex networks
+
 \bibitem{GTC}N. Biggs, E. K. Lloyd, and R. J. Wilson. Graph Theory, 1736-1936. Claren- don Press, New York, NY, USA, 1986.
 
 \bibitem{LPU}MohammadAlHasan,VineetChaoji,SaeedSalem,andMohammedZaki. Link prediction using supervised learning. In In Proc. of SDM 06 workshop on Link Analysis, Counterterrorism and Security, 2006.
 
 \bibitem{NPA}Ryan N. Lichtenwalter, Jake T. Lussier, and Nitesh V. Chawla. New per- spectives and methods in link prediction. In Proceedings of the 16th ACM SIGKDD International Conference on Knowledge Discovery and Data Min- ing, KDD ’10, pages 243–252, New York, NY, USA, 2010. ACM.
-\bibitem{LPC}Zhen Liu, Qian-Ming Zhang, Linyuan Lü, and Tao Zhou. Link prediction in complex networks: A local naïve bayes model. EPL (Europhysics Letters), 96(4):48007, 2011.
+
+\bibitem{LPC}Zhen Liu, Qian-Ming Zhang, Linyuan Lü, and Tao Zhou. Link prediction in complex networks: A local naïve bayes model. EPL (Europhysics Letters), 96(4):48007, 2011.
 
 \bibitem{WWC}Andrew Chen-Brian Tran Ole J. Mengshoel, Raj Desai. Will we connect again? machine learning for link prediction in mobile social networks. 2013.
 
-\bibitem{SRM}Kai Yu, Wei Chu, Shipeng Yu, Volker Tresp, and Zhao Xu. Stochasticrelational models for discriminative link prediction. In Advances in Neural Information Processing Systems, pages 333–340. MIT Press, 2007.
+\bibitem{SRM}Kai Yu, Wei Chu, Shipeng Yu, Volker Tresp, and Zhao Xu. Stochastic
+relational models for discriminative link prediction. In Advances in Neural Information Processing Systems, pages 333–340. MIT Press, 2007.
 
-\bibitem{GME}Edward J Taaffe，Howard L Gauthier,Morton E.0’KeHy.Geography of Transportation(2nd).Prentice Hall，1996.
+\bibitem{GME}Edward J Taaffe，Howard L Gauthier,Morton E.0’KeHy.
+Geography of Transportation(2nd).Prentice Hall，1996.
 
-\bibitem{GOT}odrigue J P et a1.ne Geography of Transport Systems，Hofstra Univemity.Department of Economics\& Geogra
+\bibitem{GOT}odrigue J P et a1.ne Geography of Transport Systems，
+Hofstra Univemity.Department of Economics\& Geogra
 
 \bibitem{UTN}Sheffi，Yose[Urban Transportation Networks:Equilibrium Analysis with Mathematical Programming Methods.Prentice-Hall，Inc，1 985.
 
-\bibitem{NHS}A. Clauset, C. Moore, M. E. J. Newman, Hierarchical structure and the prediction of missing links in networks, Nature 453 (2008) 98.\bibitem{TOM}S. Redner, Teasing out the missing links, Nature 453 (2008) 47.
+\bibitem{NHS}A. Clauset, C. Moore, M. E. J. Newman, Hierarchical structure and the prediction of missing links in networks, Nature 453 (2008) 98.
+
+\bibitem{TOM}S. Redner, Teasing out the missing links, Nature 453 (2008) 47.
 
 \bibitem{SPR}J. O’Madadhain, J. Hutchins, P. Smyth, Prediction and ranking algorithms for event-based network data, In Proceedings of SIGKDD 2005, ACM Press, New York, 2005, p. 23.
 
 \bibitem{TZ}T. Zhou, J. Ren, M. Medo, Y.-C. Zhang, Bipartite network projection and personal recommendation, Phys. Rev.E 76 (2007) 046115.
 
 \bibitem{SAD}T. Zhou, Z. Kuscsik, J.-G. Liu, M. Medo, J. R. Wakeling, Y.-C. Zhang, Solving the apparent diversity-accuracy dilemma of recommender systems, Proc. Natl. Acad. Sci. U.S.A. 107 (2010) 4511.
-\bibitem{CAA}W. Zeng, M.-S. Shang, Q.-M. Zhang, L. Lu ̈, T. Zhou, Can dissimilar users contribute to accuracy and diversity of personalized recommendation, Int. J. Mod. Phys. C (to be published).
+
+\bibitem{CAA}W. Zeng, M.-S. Shang, Q.-M. Zhang, L. Lu ̈, T. Zhou, Can dissimilar users contribute to accuracy and diversity of personalized recommendation, Int. J. Mod. Phys. C (to be published).
 
 \bibitem{SV}Lü, Linyuan, and T. Zhou. "Link prediction in complex networks: A survey." Physica A Statistical Mechanics \& Its Applications 390.6(2011):1150-1170.
 
@@ -301,6 +356,9 @@ Ackland R, Ackland R. Mapping the U.S. Political Blogosphere: Are Conservative B
 
 \bibitem{MEN}S. N. Dorogovtsev, J. F. F. Mendes. Evolution of networks[M]// Evolution of networks :. Oxford University Press, 2003:1842-1845.
 
+
+\bibitem{LCS}[1] L. Cui, S. Kumara, and R. Albert, IEEE Circuits and Systems Magazine 10, 10 (2010).\bibitem{LZY}[2] L. Zhao, Y.-C. Lai, K. Park, and N. Ye, Phys. Rev. E 71, 026125 (2005).\bibitem{AAA}[3] A. Arenas, A. D ́ıaz-Guilera, and R. Guimer`a, Phys. Rev. Lett. 86, 3196 (2001).\bibitem{DDL}[4] D. De Martino, L. Dall’Asta, G. Bianconi, and M. Mar- sili, Physical Review E 79, 015101 (2009).\bibitem{JWC}[5] J. Wu, C. Tse, F. C. Lau, and I. W. Ho, IEEE Trans. Circuits Syst. I, Reg. Papers 60, 3303 (2013).\bibitem{SBV}[6] S. Boccaletti, V. Latora, Y. Moreno, M. Chavez, and D.- U. Hwang, Phys. Rep. 424, 175 (2006).\bibitem{RGA}[7] R. Guimer`a, A. Arenas, A. D ́ıaz-Guilera, and F. Giralt, Phys. Rev. E 66, 026704 (2002).\bibitem{SCW}[9] S. Chen, W. Huang, C. Cattani, and G. Altieri, Mathe- matical Problems in Engineering 2012, 732698 (2012).\bibitem{GYT}[10] G. Yan, T. Zhou, B. Hu, Z.-Q. Fu, and B.-H. Wang, Phys. Rev. E 73, 046108 (2006).\bibitem{BDY}[11] B. Danila, Y. Yu, J. A. Marsh, and K. E. Bassler, Phys. Rev. E 74, 046106 (2006).\bibitem{XLM}[12] X. Ling, M.-B. Hu, R. Jiang, and Q.-S. Wu, Phys. Rev. E 81, 016113 (2010).\bibitem{FTY}[13] F. Tan and Y. Xia, Physica A 392, 4146 (2013).\bibitem{YXD}[14] Y. Xia and D. Hill, EPL 89, 58004 (2010).\bibitem{XLMD}[15] X. Ling, M.-B. Hu, J.-C. Long, J.-X. Ding, and Q. Shi,Chin. Phys. B 22, 018904 (2013).\bibitem{GQZ}[16] G.-Q. Zhang, S. Zhou, D. Wang, G. Yan, and G.-Q.Zhang, Physica A 390, 387 (2011).
+\bibitem{ZTKE}[137] Z. Toroczkai, K.E. Bassler, Nature 428 (2004) 716.\bibitem{ZTBE}[138] Z. Toroczkai, B. Kozma, K.E. Bassler, N.W. Hengartner, G. Korniss, preprint cond-mat/0408262.
 
 \end{thebibliography}
 
