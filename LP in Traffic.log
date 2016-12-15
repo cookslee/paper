@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.16)  5 DEC 2016 16:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.16)  14 DEC 2016 11:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -323,13 +323,9 @@ ment class option showpacs.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ” in font cmr10!
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no Ÿ in font cmr10!
 Missing character: There is no ï in font cmr10!
 Missing character: There is no ¼ in font cmr10!
 Missing character: There is no ˆ in font cmr10!
@@ -422,25 +418,25 @@ Missing character: There is no ‚ in font cmr10!
  <road.png, id=32, 362.3136pt x 217.7736pt>
 File: road.png Graphic file (type png)
  <use road.png>
-Package pdftex.def Info: road.png used on input line 243.
+Package pdftex.def Info: road.png used on input line 273.
 (pdftex.def)             Requested size: 362.31271pt x 207.73557pt.
  [5]
 <baFlow.png, id=37, 362.3136pt x 217.7736pt>
 File: baFlow.png Graphic file (type png)
  <use baFlow.png>
-Package pdftex.def Info: baFlow.png used on input line 251.
+Package pdftex.def Info: baFlow.png used on input line 281.
 (pdftex.def)             Requested size: 362.31271pt x 207.73557pt.
 
 <fractionSize.png, id=38, 362.3136pt x 217.7736pt>
 File: fractionSize.png Graphic file (type png)
  <use fractionSize.png>
-Package pdftex.def Info: fractionSize.png used on input line 272.
+Package pdftex.def Info: fractionSize.png used on input line 302.
 (pdftex.def)             Requested size: 362.31271pt x 207.73557pt.
 
 <baSize.png, id=39, 362.3136pt x 217.7736pt>
 File: baSize.png Graphic file (type png)
  <use baSize.png>
-Package pdftex.def Info: baSize.png used on input line 281.
+Package pdftex.def Info: baSize.png used on input line 311.
 (pdftex.def)             Requested size: 362.31271pt x 207.73557pt.
 Missing character: There is no ï in font cmr10!
 Missing character: There is no ¼ in font cmr10!
@@ -603,10 +599,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4404 strings out of 493014
- 56962 string characters out of 6133351
- 140203 words of memory out of 5000000
- 7857 multiletter control sequences out of 15000+600000
+ 4403 strings out of 493014
+ 56952 string characters out of 6133351
+ 140448 words of memory out of 5000000
+ 7856 multiletter control sequences out of 15000+600000
  16629 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,8n,28p,1635b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -627,7 +623,7 @@ e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2016/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on "LP in Traffic.pdf" (9 pages, 349884 bytes).
+Output written on "LP in Traffic.pdf" (9 pages, 349871 bytes).
 PDF statistics:
  111 PDF objects out of 1000 (max. 8388607)
  74 compressed objects within 1 object stream
