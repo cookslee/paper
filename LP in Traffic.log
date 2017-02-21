@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.16)  12 JAN 2017 23:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.7.16)  21 FEB 2017 17:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -321,10 +321,10 @@ Class revtex4 Warning: If you want your PACS to appear in your output, use docu
 ment class option showpacs.
 
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2]
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ó in font cmr10!
- [3]
+
+[2] [3]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -358,10 +358,10 @@ Missing character: There is no Å in font cmr10!
 Missing character: There is no Ô in font cmr10!
 Missing character: There is no ¨ in font cmr10!
 Missing character: There is no Å in font cmr10!
- [4]
 Missing character: There is no Ô in font cmr10!
 Missing character: There is no ¨ in font cmr10!
 Missing character: There is no Å in font cmr10!
+ [4]
 Missing character: There is no Ô in font cmr10!
 Missing character: There is no ¨ in font cmr10!
 Missing character: There is no Å in font cmr10!
@@ -405,12 +405,13 @@ File: road.png Graphic file (type png)
  <use road.png>
 Package pdftex.def Info: road.png used on input line 276.
 (pdftex.def)             Requested size: 362.31271pt x 207.73557pt.
- [5 <./road.png>] <baFlow.png, id=38, 362.3136pt x 217.7736pt>
+
+<baFlow.png, id=34, 362.3136pt x 217.7736pt>
 File: baFlow.png Graphic file (type png)
  <use baFlow.png>
 Package pdftex.def Info: baFlow.png used on input line 284.
 (pdftex.def)             Requested size: 362.31271pt x 207.73557pt.
-
+ [5 <./road.png>]
 <fractionSize.png, id=39, 362.3136pt x 217.7736pt>
 File: fractionSize.png Graphic file (type png)
  <use fractionSize.png>
@@ -426,127 +427,137 @@ Missing character: There is no Ô in font cmr10!
 Missing character: There is no º in font cmr10!
 Missing character: There is no å in font cmr10!
  [6 <./baFlow.png> <./fractionSize.png>]
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no Å in font cmr9!
+Missing character: There is no ƒ in font cmr9!
+Missing character: There is no ± in font cmr9!
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
-Missing character: There is no ú in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ù in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ì in font cmr9!
+Missing character: There is no ô in font cmr9!
  [7 <./baSize.png>]
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
-Missing character: There is no ú in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ù in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ú in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ù in font cmr9!
-Missing character: There is no Ã in font cmr9!
-Missing character: There is no Å in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ú in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ù in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ú in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ù in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ú in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ù in font cmr9!
-Missing character: There is no Ã in font cmr9!
-Missing character: There is no Å in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ú in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ù in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
 Missing character: There is no ì in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ú in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ù in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ì in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ú in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ù in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ì in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ú in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ù in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ì in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ô in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ì in font cmr9!
-Missing character: There is no Ã in font cmr9!
-Missing character: There is no à in font cmr9!
-Missing character: There is no Ã in font cmr9!
-Missing character: There is no à in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ì in font cmr9!
-Missing character: There is no Ô in font cmr9!
-Missing character: There is no º in font cmr9!
-Missing character: There is no å in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ô in font cmr9!
-Missing character: There is no Ô in font cmr9!
-Missing character: There is no º in font cmr9!
-Missing character: There is no å in font cmr9!
-Missing character: There is no Ô in font cmr9!
-Missing character: There is no º in font cmr9!
-Missing character: There is no å in font cmr9!
-Missing character: There is no Ô in font cmr9!
-Missing character: There is no º in font cmr9!
-Missing character: There is no å in font cmr9!
-Missing character: There is no Ô in font cmr9!
-Missing character: There is no º in font cmr9!
-Missing character: There is no å in font cmr9!
-Missing character: There is no Ô in font cmr9!
-Missing character: There is no º in font cmr9!
-Missing character: There is no å in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ô in font cmr9!
-Missing character: There is no Ã in font cmr9!
-Missing character: There is no à in font cmr9!
 Missing character: There is no √ in font cmr9!
 Missing character: There is no º in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ú in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ù in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ì in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ú in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ù in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ú in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ù in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no Å in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ú in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ù in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ú in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ù in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ú in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ù in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no Å in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ú in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ù in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ì in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ú in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ù in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ì in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ú in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ù in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ì in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ú in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ù in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ì in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ô in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ì in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no à in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no à in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ì in font cmr9!
+Missing character: There is no Ô in font cmr9!
+Missing character: There is no º in font cmr9!
+Missing character: There is no å in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ô in font cmr9!
+Missing character: There is no Ô in font cmr9!
+Missing character: There is no º in font cmr9!
+Missing character: There is no å in font cmr9!
+Missing character: There is no Ô in font cmr9!
+Missing character: There is no º in font cmr9!
+Missing character: There is no å in font cmr9!
+Missing character: There is no Ô in font cmr9!
+Missing character: There is no º in font cmr9!
+Missing character: There is no å in font cmr9!
+Missing character: There is no Ô in font cmr9!
+Missing character: There is no º in font cmr9!
+Missing character: There is no å in font cmr9!
+Missing character: There is no Ô in font cmr9!
+Missing character: There is no º in font cmr9!
+Missing character: There is no å in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ô in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no à in font cmr9!
 Missing character: There is no √ in font cmr9!
 Missing character: There is no º in font cmr9!
 Missing character: There is no √ in font cmr9!
@@ -562,34 +573,24 @@ Missing character: There is no ô in font cmr9!
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ô in font cmr9!
-Missing character: There is no Ã in font cmr9!
-Missing character: There is no Å in font cmr9!
-Missing character: There is no ƒ in font cmr9!
-Missing character: There is no ± in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ô in font cmr9!
  [8]
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no Å in font cmr9!
 Missing character: There is no ƒ in font cmr9!
 Missing character: There is no ± in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ì in font cmr9!
  [9] (./LP in Traffic.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4402 strings out of 493014
- 56943 string characters out of 6133351
- 141142 words of memory out of 5000000
- 7855 multiletter control sequences out of 15000+600000
+ 4404 strings out of 493014
+ 56962 string characters out of 6133351
+ 142213 words of memory out of 5000000
+ 7857 multiletter control sequences out of 15000+600000
  16629 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,8n,28p,1635b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,8n,28p,1640b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
@@ -607,7 +608,7 @@ e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2016/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on "LP in Traffic.pdf" (9 pages, 348259 bytes).
+Output written on "LP in Traffic.pdf" (9 pages, 347913 bytes).
 PDF statistics:
  111 PDF objects out of 1000 (max. 8388607)
  74 compressed objects within 1 object stream
